@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/chat', {
+mongoose.connect('https://ewweasdgadfggadfs.onrender.com', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
